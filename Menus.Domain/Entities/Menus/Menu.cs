@@ -18,6 +18,9 @@ namespace Menus.Domain.Entities.Menus
         /// <summary>菜名类型</summary>
         public DishType DishType { get; set; }
 
+        /// <summary>辣度类型</summary>
+        public string Spiciness { get; set; }
+
         /// <summary>评分</summary>
         public Rating Rating { get; set; }
 
